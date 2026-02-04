@@ -21,19 +21,19 @@ export default function TermsPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-gray-600 hover:text-[#FB923C] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#6B7280] hover:text-[#2F6F66] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-[#FB923C] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#6B7280] hover:text-[#2F6F66] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-gray-600 hover:text-[#FB923C] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#6B7280] hover:text-[#2F6F66] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-gray-900 hover:text-[#FB923C] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#1F2937] hover:text-[#2F6F66] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#FB923C] text-white hover:bg-[#F97316] px-4 py-2 rounded-md text-sm font-medium">
+                <Link href="/signup" className="bg-[#4CAF50] text-white hover:bg-[#45a049] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
               </div>
@@ -43,7 +43,7 @@ export default function TermsPage() {
       </nav>
 
       {/* Header */}
-      <section className="bg-gradient-to-b from-orange-50 to-white py-12">
+      <section className="bg-gradient-to-b from-[#F9FAFB] to-white py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Terms of Service</h1>
           <p className="text-lg text-gray-600">
@@ -276,9 +276,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@edmverify.com" className="text-[#FB923C] hover:text-[#F97316]">legal@edmverify.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@edmverify.com" className="text-[#FB923C] hover:text-[#F97316]">support@edmverify.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#FB923C] hover:text-[#F97316]">https://edmverify.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@edmverify.com" className="text-[#2F6F66] hover:text-[#4CAF50]">legal@edmverify.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@edmverify.com" className="text-[#2F6F66] hover:text-[#4CAF50]">support@edmverify.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#2F6F66] hover:text-[#4CAF50]">https://edmverify.com</a></p>
           </div>
 
         </div>
