@@ -11,9 +11,9 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-32">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image 
-                  src="/peachy-logo.png"
-                  alt="Peachy Verify" 
+                <Image
+                  src="/EDMVerify.png"
+                  alt="EDM Verify"
                   width={500} 
                   height={167}
                   className="h-24 w-auto"
@@ -48,7 +48,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-              About Peachy Verify
+              About EDM Verify
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We're building the future of SMS verification, helping businesses verify customer identity while improving delivery rates.
@@ -63,7 +63,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
             <p className="text-lg text-gray-600 mb-4">
-              Peachy Verify was created to solve a critical problem: businesses need a reliable way to verify customer identity via SMS while maintaining high delivery rates.
+              EDM Verify was created to solve a critical problem: businesses need a reliable way to verify customer identity via SMS while maintaining high delivery rates.
             </p>
             <p className="text-lg text-gray-600 mb-4">
               We provide a simple, secure verification platform that acts as a trusted intermediary between businesses and their customers.
@@ -172,7 +172,7 @@ export default function AboutPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join businesses that trust Peachy Verify for SMS verification.
+            Join businesses that trust EDM Verify for SMS verification.
           </p>
           <Link
             href="/signup"
@@ -188,7 +188,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Peachy Verify</h3>
+              <h3 className="text-xl font-bold mb-4">EDM Verify</h3>
               <p className="text-gray-400">
                 SMS verification for businesses.
               </p>
@@ -226,12 +226,12 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@peachyverify.com
+                support@edmverify.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Peachy Verify. All rights reserved.</p>
+            <p>&copy; 2025 EDM Verify. All rights reserved.</p>
           </div>
         </div>
       </footer>

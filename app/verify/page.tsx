@@ -65,13 +65,13 @@ function VerifyPageContent() {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-b from-[#F9FAFB] to-white flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
           <Image 
-            src="/peachy-logo.png"
-            alt="Peachy Verify" 
+            src="/EDMVerify.png"
+            alt="EDM Verify"
             width={320} 
             height={107}
             className="h-24 w-auto"
@@ -80,11 +80,11 @@ function VerifyPageContent() {
 
         {/* Verification Content */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-12 h-12 text-[#FB923C]" />
+          <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-12 h-12 text-[#4CAF50]" />
           </div>
           
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl font-bold text-[#1F2937] mb-4">
             Verify Your Number
           </h2>
           
@@ -95,7 +95,7 @@ function VerifyPageContent() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter phone number"
-              className="w-full bg-gray-50 rounded-lg p-6 text-3xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#FB923C] focus:outline-none transition-colors"
+              className="w-full bg-gray-50 rounded-lg p-6 text-3xl font-bold text-[#1F2937] tracking-wider text-center border-2 border-[#E5E7EB] focus:border-[#4CAF50] focus:outline-none transition-colors"
             />
           </div>
 
@@ -106,7 +106,7 @@ function VerifyPageContent() {
             className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
               isRedirecting
                 ? 'bg-gray-400 cursor-not-allowed'
-                : 'bg-[#FB923C] hover:bg-[#F97316] text-white shadow-lg hover:shadow-xl'
+                : 'bg-[#4CAF50] hover:bg-[#45a049] text-white shadow-lg hover:shadow-xl'
             }`}
           >
             {isRedirecting ? (
@@ -124,9 +124,9 @@ function VerifyPageContent() {
         </div>
 
         {/* Footer */}
-        <div className="text-center pt-6 border-t border-gray-200">
-          <p className="text-xs text-gray-500">
-            Secured by Peachy Verify
+        <div className="text-center pt-6 border-t border-[#E5E7EB]">
+          <p className="text-xs text-[#6B7280]">
+            Secured by EDM Verify
           </p>
         </div>
       </div>
@@ -137,10 +137,10 @@ function VerifyPageContent() {
 export default function VerifyPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-[#F9FAFB] to-white flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#FB923C] mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#4CAF50] mx-auto"></div>
+          <p className="mt-4 text-[#6B7280]">Loading...</p>
         </div>
       </div>
     }>
