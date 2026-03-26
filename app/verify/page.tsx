@@ -85,7 +85,7 @@ function VerifyPageContent() {
           </div>
           
           <h2 className="text-xl sm:text-2xl font-bold text-[#1A1A1A] mb-6 px-2">
-            Sorry we missed your call!
+            Validate your number.
           </h2>
           
           {/* Phone Input Field */}
@@ -97,16 +97,6 @@ function VerifyPageContent() {
               placeholder="Enter phone number"
               className="w-full bg-gray-50 rounded-lg p-3 sm:p-4 text-lg sm:text-xl font-bold text-[#1A1A1A] tracking-wider text-center border-2 border-[#E5E7EB] focus:border-[#EFE810] focus:outline-none transition-colors"
             />
-          </div>
-
-          {/* Progress/Urgency Indicator */}
-          <div className="mb-6 text-center">
-            <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-[#555555]">
-              <div className="flex items-center gap-1">
-                <div className="w-2 h-2 bg-[#EFE810] rounded-full animate-pulse"></div>
-                <span>3 agents available now</span>
-              </div>
-            </div>
           </div>
 
           {/* Confirm Button */}
