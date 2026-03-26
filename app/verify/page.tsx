@@ -121,7 +121,6 @@ function VerifyPageContent() {
               <span className="block sm:inline">Verify Number</span>
             )}
           </button>
-          <p className="text-xs sm:text-sm text-[#1A1A1A] mt-2 font-medium">✓ 12,400+ verified this week</p>
         </div>
 
         {/* Footer */}
